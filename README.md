@@ -1,6 +1,6 @@
 # Curso de Git e Github do básico ao avançado
 
-### Comandos de início do Git
+### Comandos de iniciais do Git
 
 Criando um repositório: _git init_
 
