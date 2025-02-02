@@ -1,9 +1,6 @@
 # Curso de Git e Github do básico ao avançado
 
-
 ## Comandos de iniciais do Git
-
-
 
 ### _git init_:
 
@@ -165,6 +162,18 @@ __________________
 
 **Uso mudança + criação:** git branch -b <nome_do_branch_a_ser_criado>
 
-**OBSERVAÇÃO IMPORTANTÍSSIMA:** ATENÇÃO, É IMPORTANTÍSSIMO QUE TODA ALTERAÇÃO FEITA NO BRANCH ATUAL SEJA COMMITADA ANTES DA MUDANÇA DE BRANCH, POIS QUALQUER ALTERAÇÃO QUE NÃO ESTEJA COMMITADA SERÁ LEVADA PARA O NOVO BRANCH E SERÁ CONSIDERADA COMO UMA ALTERAÇÃO DO BRANCH ATIVO MAIS ATUAL!!!
+**OBSERVAÇÃO IMPORTANTÍSSIMA:** _ATENÇÃO, É IMPORTANTÍSSIMO QUE TODA ALTERAÇÃO FEITA NO BRANCH ATUAL SEJA COMMITADA ANTES DA MUDANÇA DE BRANCH, POIS QUALQUER ALTERAÇÃO QUE NÃO ESTEJA COMMITADA SERÁ LEVADA PARA O NOVO BRANCH E SERÁ CONSIDERADA COMO UMA ALTERAÇÃO DO BRANCH ATIVO MAIS ATUAL!!!_
+
+__________________
+
+### _git merge_:
+
+**Ação:** O comando _git merge_ nos permite unir dois branches distintos. Este é um dos comandos mais utilizados. Digamos que o branch main atualiza no meio da sua tarefa. Basta dar um merge para ter o branch main atualizado e ainda assim continuar a trabalhar na sua parte sem perder o andamento do seu trabalho.
+
+É por meio dele que recebemos as atualizações dos outros devs. Tudo isso acontece antes mesmo de subir para o respositório remoto.
+
+**Uso:** git merge <nome_do_branch_a_ser_unido_ao_seu>
+
+**OBSERVAÇÃO:** Nunca devemos dar um merge de nosso conteúdo através do branch main, somente devemos mergear nosso branch com o main. Não devemos nunca alterar o main diretamente pelo git. Essa alteração será feita direto pelo github ou bitbucket.
 
 __________________
