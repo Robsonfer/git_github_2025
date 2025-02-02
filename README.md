@@ -1,10 +1,9 @@
 # Curso de Git e Github do básico ao avançado
 
-__________________
 
 ## Comandos de iniciais do Git
 
-__________________
+
 
 ### _git init_:
 
@@ -12,7 +11,7 @@ __________________
 
 **Uso:** git init
 
-__________________
+------------------
 
 ### _git status_:
 
