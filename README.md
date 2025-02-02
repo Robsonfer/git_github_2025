@@ -11,7 +11,7 @@
 
 **Uso:** git init
 
-------------------
+__________________
 
 ### _git status_:
 
@@ -39,9 +39,11 @@ __________________
 
 **Ação:** O comando _git commit_ grava no diretório git todos os arquivos que estão aguardando no stage. Essa ação oficializa a alteração no projeto.
 
-**Uso:** git commit -m "mensagem de alteração livre"
+**Uso com add antes:** git commit -m "mensagem de alteração livre"
 
-**OBSERVAÇÃO:** O commit pode ser usado sem a flag _-m_, mas é extremamente recomendado sempre usá-lo com uma mensagem.
+**Uso sem add antes:** git commit -a -m "mensagem de alteração livre"
+
+**OBSERVAÇÃO:** O commit pode ser usado sem a flag _-m_, mas é extremamente recomendado sempre usá-lo com uma mensagem. Se usarmos junto a flag _-a_ não e preciso realizar um _git add_, mas fica a seu critério!
 
 __________________
 
@@ -87,3 +89,82 @@ __________________
 
 __________________
 
+### _git mv_:
+
+**Ação:** O comando _git mv_ nos permite reanomear um arquivo e também movê-lo para outra pasta. Quando usado esse comando o arquivo antigo é deletado e é criado um novo arquivo com o novo nome e/ou na nova pasta.
+
+**Uso para renomear:** git mv <novo_nome_do_arquivo_com_extensão>
+
+**Uso para mover:** git mv <nome_do_arquivo_com_extensão> <diretório\do\destino\desejado>
+
+**OBSERVAÇÃO:** Podemos também renomear e mudar a pasta ao mesmo tempo.
+
+__________________
+
+### _git checkout_:
+
+**Ação:** O comando _git checkout_ pode ser retornado totalmente ao seu estado original, ou seja, no estado que ele se encontra no repositório remoto (github).
+
+**Uso:** git checkout <nome_do_arquivo_com_extensão>
+
+**OBSERVAÇÃO:** Esse comando nos permite limpar o arquivo totalmente de alterações, pois mesmo que mantivermos o arquivo igual antes, uma alteração será computada. Usando este comando, nosso diretório fica realmente original como antes do _git pull_ .
+
+__________________
+
+### _.gitignore_:
+
+**Ação:** É possível fazer com que o git ignore arquivos e diretórios específicos se assim desejar. Existem arquivos/diretórios que outras pessoas não precisam ter acesso dentro de nossos projetos. Geralmente são arquivos de dados sensíveis ou arquivos gerados automaticamente.
+
+**Uso:** Basta criar um arquivo chamado.gitignore dentro do seu repositório. Ao abrí-lo, você pode adicionar os arquivos que deseja que o git ignore, como por exemplo: modelo.txt ou node_modules/*. O uso do * determina que o git deve ignorar tudo o que existir dentro daquela pasta.
+
+__________________
+
+### _git reset_:
+
+**Ação:** Usando o comando _git reset_ é possível também desfazer todas as alterações em um repositório, inclusive as alterações já comitadas. Todas as alterações serão excluídas. É um comando que precisamos ter muito cuidado, pois podemos perder tudo.
+
+**Uso:** git reset --hard <branch_a_ser_resetado> Exemplo: git reset --hard origin/main
+
+__________________
+
+## O que são Branches?
+
+É a forma que o git separa as versões do projeto. Quando um projeto é criado, ele inicia na branch master.
+
+Geralmente cada nova feature de um projeto fica em um branch separado e após a finalização, todos os braches são unidos para ter o código-fonte final.
+
+__________________
+
+### _git branch_:
+
+**Ação de consulta:** O comando _git branch_ nos permite visualizar todos os branchs disponíveis.
+
+**Uso:** git branch
+
+**Ação de criação de nova branch:** Ele também pode ser usado para criar um nova branch.
+
+**Uso:** git branch <nome_do_novo_branch>
+
+__________________
+
+### _git branch -d_ ou _--delete_:
+
+**Ação:** Os comandos _git branch -d_ ou _git branch --delete_ são usados para deletar um branch. Não é comum deletar um branch, afinal e importante guardar o histórico do trabalho.
+
+**Uso _-d_ :** git branch -d <nome_do_branch>
+
+**Uso _--delete_ :** git branch --delete <nome_do_branch>
+
+__________________
+
+### _git checkout_ e _git checkout -b_:
+
+**Ação:** Nós usamos o comando _git checkout_ para mudar de branch de trabalho. E usamos o comando _git checkout -b_ para mudar de branch e já criar um branch novo ao mesmo tempo.
+
+**Uso mudança:** git branch <nome_do_branch_desejado_já_existente>
+
+**Uso mudança + criação:** git branch -b <nome_do_branch_a_ser_criado>
+
+**OBSERVAÇÃO IMPORTANTÍSSIMA:** ATENÇÃO, É IMPORTANTÍSSIMO QUE TODA ALTERAÇÃO FEITA NO BRANCH ATUAL SEJA COMMITADA ANTES DA MUDANÇA DE BRANCH, POIS QUALQUER ALTERAÇÃO QUE NÃO ESTEJA COMMITADA SERÁ LEVADA PARA O NOVO BRANCH E SERÁ CONSIDERADA COMO UMA ALTERAÇÃO DO BRANCH ATIVO MAIS ATUAL!!!
+
+__________________
