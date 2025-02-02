@@ -1,12 +1,16 @@
 # Curso de Git e Github do básico ao avançado
 
-### Comandos de iniciais do Git
+## Comandos de iniciais do Git
 
-Criando um repositório: _git init_
+### _git init_:
 
-### Verificando mudanças do projeto
+Ação: O comando _git init_ cria um novo repositório git dentro da pasta selecionada
+Uso: git init
 
-As mudanças do projeto podem ser verificadas por: _git status_
+### _git status_
+
+*Ação:* O comando _git status_ nos permite verificar o status do repositório criado. Qualquer modificação no projeto será vista através deste comando.
+*Uso:* git status
 
 ### Adicionando arquivos ao projeto
 
