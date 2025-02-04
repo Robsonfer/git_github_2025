@@ -177,3 +177,35 @@ __________________
 **OBSERVAÇÃO:** Nunca devemos dar um merge de nosso conteúdo através do branch main, somente devemos mergear nosso branch com o main. Não devemos nunca alterar o main diretamente pelo git. Essa alteração será feita direto pelo github ou bitbucket.
 
 __________________
+
+### _git stash_:
+
+**Ação:** O comando _git stash_ nos permite apagar todas as alterações feitas em um projeto com a diferença que quando o utilizamos, estas alterações vão para um outro local do repositório que não é mais monitorado pelo git, entretanto, fica salvo, como se fosse um stage. Ele traz o código para o último status antes do commit. Se commitar, não dá mais pra usar o stash.
+
+**Uso:** git stash
+
+__________________
+
+### Consultado stashes
+
+### _git stash list_:
+
+**Ação:** O comando _git stash list_ nos permite ver todas as stashes que foram criadas.
+
+**Uso:** git stash list
+
+**Ação:** Quando usamos o _git stash list_, nós conseguimos ver o número do nosso stash. Com o comando _git stash show -p <número>_ podemos ver todas as alteraçõos contidas neste stash de número específico.
+
+**Uso:** git stash show -p <número>
+
+__________________
+
+### Recuperando stashes
+
+### _git stash apply <número>_:
+
+**Ação:** O comando _git stash apply <número>_ nos permite recuperar uma stash criada pelo seu número identificado na consulta _git stash list_. Esta stash é revertida novamente ao nosso branch atual e podemos continuar de onde paramos.
+
+**Uso:** git stash apply <número>
+
+__________________
