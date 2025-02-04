@@ -209,3 +209,19 @@ __________________
 **Uso:** git stash apply <número>
 
 __________________
+
+### Removendo stashes
+
+### _git stash clear_:
+
+**Ação:** Este comando remove todas as stashes do repositório
+
+**Uso:** git stash clear
+
+### _git stash drop_:
+
+**Ação:** Este comando remove somente a stash com o nome específico escolhido
+
+**Uso:** git stash drop <nome>
+
+__________________
