@@ -222,6 +222,18 @@ __________________
 
 **Ação:** Este comando remove somente a stash com o nome específico escolhido
 
-**Uso:** git stash drop <nome>
+**Uso:** git stash drop <número>
 
+__________________
+
+### Criando tags
+
+### git tag -a <nome> -m "<mensagem>"
+
+**Ação:** A tag nos permite criar "checkpoints" dentro de um branch. Basicamente com oum stash ao contrário, pois as tags como o stash, podem ser adicionadas e removidas por etapas. Mas a tag, diferente do stash, nós podemos commitar tranquilamente sem problemas.
+
+**Uso:** git tag -a v1.0 -m "Primeira versão"
+
+__________________
+__________________
 __________________
