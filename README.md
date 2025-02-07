@@ -228,12 +228,16 @@ __________________
 
 ### Criando tags
 
-### git tag -a <nome> -m "<mensagem>"
+### _git tag -a <nome> -m "<mensagem>"_:
 
 **Ação:** A tag nos permite criar "checkpoints" dentro de um branch. Basicamente com oum stash ao contrário, pois as tags como o stash, podem ser adicionadas e removidas por etapas. Mas a tag, diferente do stash, nós podemos commitar tranquilamente sem problemas.
 
 **Uso:** git tag -a v1.0 -m "Primeira versão"
 
 __________________
-__________________
-__________________
+
+### Verificando e alterando tags
+
+### Podemos consultar as tags na tela com _git show <nome>_:
+
+### Também podemos trocar de tags com _git checkout <nome>_:
