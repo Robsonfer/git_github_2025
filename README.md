@@ -240,4 +240,8 @@ __________________
 
 ### Podemos consultar as tags na tela com _git show <nome>_:
 
+<<<<<<< HEAD
 ### Também podemos trocar de tags com _git checkout <nome>_:
+=======
+### Também podemos trocar de tags com _git checkout <nome>_:
+>>>>>>> e1d2a5a
