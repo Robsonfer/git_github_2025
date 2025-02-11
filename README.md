@@ -252,3 +252,24 @@ __________________
 
 __________________
 
+### Enviando tags para o repositório
+
+### _git push origin <nome>_:
+
+**Ação:** Este comando nos permite enviar uma tag específica para o repositório remoto.
+
+**Uso:** git push origin v1.0
+
+### _git push origin --tags_:
+
+**Ação:** Este comando nos permite enviar todas as tags de uma só vez para o repositório remoto.
+
+**Uso:** git push origin --tags
+
+
+**OBSERVAÇÃO:** É importante lembrar que diferente das stashes, as tags devem ser commitadas.
+__________________
+
+### Encontrando branches
+
+### _git fetch_:
