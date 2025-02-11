@@ -238,8 +238,17 @@ __________________
 
 ### Verificando e alterando tags
 
-### Podemos consultar as tags na tela com _git show <nome>_:
+### _git show <nome>_:
 
-### Também podemos trocar de tags com _git checkout <nome>_:
+**Ação:** Nos permite consultar as tags na tela.
 
-### Também podemos trocar de tags com _git checkout <nome>_:
+**Uso:** git show "v1.0"
+
+### _git checkout <nome>_:
+
+**Ação:** Nos permite trocar de tag assim como fazemos com os branchs.
+
+**Uso:** git checkout v1.0
+
+__________________
+
