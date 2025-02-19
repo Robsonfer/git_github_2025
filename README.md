@@ -174,6 +174,9 @@ __________________
 
 **Uso:** git merge <nome_do_branch_a_ser_unido_ao_seu>
 
-**OBSERVAÇÃO:** Nunca devemos dar um merge de nosso conteúdo através do branch main, somente devemos mergear nosso branch com o main. Não devemos nunca alterar o main diretamente pelo git. Essa alteração será feita direto pelo github ou bitbucket.
+**OBSERVAÇÃO:** Nunca devemos dar um merge de nosso conteúdo através do branch main, somente devemos mergear nosso branch com o main. Não devemos nunca alterar o main diretamente pelo git. Essa alteração será feita direto pelo github ou bitbucket pela pessoa que coordena todos esses processos.
 
 __________________
+
+### _git stash_
+
