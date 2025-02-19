@@ -178,10 +178,6 @@ __________________
 
 __________________
 
-<<<<<<< HEAD
-### _git stash_
-
-=======
 ### _git stash_:
 
 **Ação:** O comando _git stash_ nos permite apagar todas as alterações feitas em um projeto com a diferença que quando o utilizamos, estas alterações vão para um outro local do repositório que não é mais monitorado pelo git, entretanto, fica salvo, como se fosse um stage. Ele traz o código para o último status antes do commit. Se commitar, não dá mais pra usar o stash.
@@ -277,4 +273,3 @@ __________________
 ### Encontrando branches
 
 ### _git fetch_:
->>>>>>> 6093b58fa0ce1a42cd740f04c9648d1d75b45d80
