@@ -268,8 +268,15 @@ __________________
 
 
 **OBSERVAÇÃO:** É importante lembrar que diferente das stashes, as tags devem ser commitadas.
+
 __________________
 
 ### Encontrando branches
 
 ### _git fetch_:
+
+**Ação:** Este comando nos ajuda a encontrar branches remotos. Branches novos são criados o tempo todo e o seu git pode não estar mapeando eles. Com o comando _git fetch_ você é atualizado de todos os branches e tags que ainda não estão conhecidos por você. É muito útil para usar o branch de algum outro dev do time, por exemplo.
+
+**Uso:** 
+
+__________________
