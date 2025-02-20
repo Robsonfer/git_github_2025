@@ -2,3 +2,5 @@ Testando branchs
 Atualizando mais este branch
 
 atualizando a funcionalidade a
+
+adicionando a funcionalidade b
