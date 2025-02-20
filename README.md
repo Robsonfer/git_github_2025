@@ -277,6 +277,17 @@ __________________
 
 **Ação:** Este comando nos ajuda a encontrar branches remotos. Branches novos são criados o tempo todo e o seu git pode não estar mapeando eles. Com o comando _git fetch_ você é atualizado de todos os branches e tags que ainda não estão conhecidos por você. É muito útil para usar o branch de algum outro dev do time, por exemplo.
 
-**Uso:** 
+**Uso:** git fetch
 
 __________________
+
+### Recebendo alterações
+
+### _git pull_:
+
+**Ação:** O camando _git pull_ serve para recebermos atualizações do repositório remoto. Cada branch pode ser atualizado com o git pull. Utilizamos para atualizar a main do repo como também quando trabalhamos em conjunto e queremos receber as atualizações de um dev.
+
+**Uso:** git pull
+
+__________________
+
