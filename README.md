@@ -291,3 +291,12 @@ __________________
 
 __________________
 
+### Enviando alterações
+
+### _git push_:
+
+**Ação:** O camando _git pull_ faz o inverso do pull, ele envia as alterações para o remoto. Serve também para enviar as atualizações de um branch específico para outro dev, ou quando terminamos uam tarefa e precisamos enviar ao repo.
+
+**Uso:** git push
+
+__________________
