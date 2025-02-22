@@ -300,3 +300,25 @@ __________________
 **Uso:** git push
 
 __________________
+
+### Utilizando o remote
+
+### _git remote_:
+
+**Ação:** Com o git remote podemos fazer algumas ações como adcionar um repo para trackear ou remover. Sempre que criamos um repo remoto, adicionamos ele com git remote add origin <link>
+
+**Uso:** Digamos que nós mudamos nosso repositório remoto do github para o bitbucket. É neste momento que usamos os comandos:
+
+- git remote -v - para identificar a origin (não é obrigatório)
+
+- git pull - para garantir que teremos o repo local completo antes de tudo.
+
+- git remote rm origin - para remover o vínculo do repo local com o repo remoto do github.
+
+- git remote -v - para confirmar a remoção (não é obrigatório)
+
+- git remote add origin <link> - para adicionar o vínculo do repo local com o remoto do bitbucket.
+
+**OBSERVAÇÃO:** Podemos fazer o git remote rm e o git remote add direto, sem seguir os procedimentos acima, mas é sempre recomendado garantir a segurança dos dados com os demais comandos.
+__________________
+
