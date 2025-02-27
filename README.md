@@ -322,3 +322,14 @@ __________________
 **OBSERVAÇÃO:** Podemos fazer o git remote rm e o git remote add direto, sem seguir os procedimentos acima, mas é sempre recomendado garantir a segurança dos dados com os demais comandos.
 __________________
 
+### Trabalhando com submódulos
+
+### _git sumodule_:
+
+**Ação:** Submódulo é a maneira que temos de possuir dois ou mais projetos em um só repositório. Podemos adicionar uma dependência ao nosso projeto atual, porém mantendo suas estruturas separadas.
+
+**Uso:** Para adicionar o submódulo utilizamos o comando **git sumodule add <repo>** e para verificar os submódulos, o comando é **git submodule**
+
+**OBSERVAÇÃO:** Podemos usar uma biblioteca desta forma para que ela fique dentro do projeto e ainda assim seja um repositório à parte.
+__________________
+
