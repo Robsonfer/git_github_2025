@@ -320,6 +320,7 @@ __________________
 - git remote add origin <link> - para adicionar o vínculo do repo local com o remoto do bitbucket.
 
 **OBSERVAÇÃO:** Podemos fazer o git remote rm e o git remote add direto, sem seguir os procedimentos acima, mas é sempre recomendado garantir a segurança dos dados com os demais comandos.
+
 __________________
 
 ### Trabalhando com submódulos
@@ -333,3 +334,14 @@ __________________
 **OBSERVAÇÃO:** Podemos usar uma biblioteca desta forma para que ela fique dentro do projeto e ainda assim seja um repositório à parte.
 __________________
 
+### Atualizando submódulos
+
+### _git push --recurse-submodules=on-demand_:
+
+**Ação:** Para atualizar um submódulo primeiro devemos commitar as mudanças.
+
+**Uso:** E para enviar para o repo do submódulo utilizamos **git push --recurse-submodules=on-demand**. Este fluxo fará a atualização apenas do submódulo.
+
+__________________
+
+  
