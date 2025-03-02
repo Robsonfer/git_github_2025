@@ -344,4 +344,15 @@ __________________
 
 __________________
 
-  
+### Análise e inspeção
+
+### Exibindo Informações
+
+### _git show_:
+
+**Ação:** O comando _git show_ nos dá diversas informações úteis. Ele nos dá as informações do branch atual e também seus commits. As modificações de arquivos entre cada commit também são exibidas. Podemos exibir as informaç~es de tags também.
+
+**Uso:** Para exibir informações de commits? **git show** e para exibir informações das tags: **git show <tag>**
+
+__________________
+
