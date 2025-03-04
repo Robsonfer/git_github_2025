@@ -356,3 +356,12 @@ __________________
 
 __________________
 
+### Exibindo Diferenças
+
+### _git diff_:
+
+**Ação:** O comando _git diff_ serve para exibir as diferenças de um branch. Quando utilizado as diferenças do branch atual com o remoto serão exibidas no terminal. Podemos também ver a diferença entre arquivos.
+
+**Uso:** Para exibir diferenças entre o branch atual e o repositório remoto: **git diff**, para exibir a diferença entre branches: **git diff main outro_branch** e para exibir diferenças entre arquivos: **git diff <arquivo_a> <arquivo_b>**
+
+__________________
