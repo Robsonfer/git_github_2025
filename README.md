@@ -408,12 +408,12 @@ __________________
 
 __________________
 
-### 
+### Reflog
 
-### _git_:
+### _git reflog_:
 
-**Ação:** 
+**Ação:** O _git reflog_ vai mapear todos os seus passos no repositório. Até uma simples mudança de branch é inserida neste log. Os reflogs ficam salvos até expirar o seu prazo. O tempo padrão de expiração é de 30 dias, mas esse tempo pode ser alterado.
 
-**Uso:** git
+**Uso:** git reflog
 
 __________________
