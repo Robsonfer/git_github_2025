@@ -344,7 +344,7 @@ __________________
 
 __________________
 
-### Análise e inspeção
+### ANÁLISE E INSPEÇÃO
 
 ### Exibindo Informações
 
@@ -363,5 +363,27 @@ __________________
 **Ação:** O comando _git diff_ serve para exibir as diferenças de um branch. Quando utilizado as diferenças do branch atual com o remoto serão exibidas no terminal. Podemos também ver a diferença entre arquivos.
 
 **Uso:** Para exibir diferenças entre o branch atual e o repositório remoto: **git diff**, para exibir a diferença entre branches: **git diff main outro_branch** e para exibir diferenças entre arquivos: **git diff <arquivo_a> <arquivo_b>**
+
+__________________
+
+### Log resumido
+
+### _git shortlog_:
+
+**Ação:** O comando _git shortlog_ nos dá um log resumido do projeto. Cada commit será unido por nome do autor. Podemos então saber quais commits foram enviados ao projeto e por quem.
+
+**Uso:** git shortlog
+
+__________________
+
+### ADMINISTRAÇÃO DO REPOSITÓRIO
+
+### Limpando arquivos untracked
+
+### _git clean_:
+
+**Ação:** O comando _git clean_ vai verificar e limpar aquivos que não estão sendo trackeados, ou seja, arquivos que você não usou _git add_. Utilizado para arquivos que são gerados automaticamente por exemplo, pois atrapalham a visualização.
+
+**Uso:** git clean
 
 __________________
