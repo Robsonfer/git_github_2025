@@ -387,3 +387,33 @@ __________________
 **Uso:** git clean
 
 __________________
+
+### Otimizando o repositório
+
+### _git gc_:
+
+**Ação:** O comando _git gc_ é uma abreviação para **garbage collector**. Ele identifica arquivos que não são mais necessários e os exclui. Isso fará com que o respositório seja otimizado em questões de performance.
+
+**Uso:** git cg
+
+__________________
+
+### Verificando a integridade dos arquivos
+
+### _git fsck_:
+
+**Ação:** O comando _git fsck_ é uma abreviação de File System Check. Esta instrução verifica a integridade de arquivos e sua conectividade com o respositório. Ele analisa e identifica possíveis corrupções em arquivos. Comando de rotina, utilizado para ver se está tudo certo com nossos arquivos.
+
+**Uso:** git fsck
+
+__________________
+
+### 
+
+### _git_:
+
+**Ação:** 
+
+**Uso:** git
+
+__________________
