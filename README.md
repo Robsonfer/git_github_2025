@@ -417,3 +417,13 @@ __________________
 **Uso:** git reflog
 
 __________________
+
+### Aula 68 - Comprimindo o repositório
+
+### _git archive --format zip --output main_files.zip main_:
+
+**Ação:** Com o comando git archive podemos transformar o repo em um arquivo compactado. Então o branch main vai estar zipado no arquivo main_files.zip
+
+**Uso:** git archive --format zip --output main_files.zip main
+
+__________________
