@@ -463,7 +463,5 @@ __________________
 - Corpo com no **máximo 72 caracteres**;
 - Explicar o **por que e como** do commit, e não como o código foi escrito.
 
-**Uso:** 
-
 __________________
 
