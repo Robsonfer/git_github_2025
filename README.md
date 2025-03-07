@@ -432,7 +432,38 @@ __________________
 
 **Ação:** Há uma técnica chamada private branches onde criamos branches que não serão compartilhados no repositório, então podemos colocar qualquer commit. Ao fim da solução do problema podemos fazer um **rebase**.
 
+E como devemos proceder para criar esse branch privado?
+- Primeiro criamos um branch para trabalhar nossa parte do trabalho, por exemplo: _git checkout -b funcao_a_;
+- Depois precisamos derivar o branch privado desse branch, pois será feito o rebase aí: _git checkout -b private_funcao_a_;
+- Trabalhamos normalmente dentro do branch _private_funcao_a_, commitamos tudo normalmente;
+- Então mudamos para o branch da função que não é privado: _git checkout func_a_;
+- Neste momento damos o _git rebase funcao_a private_funcao_a -i_;
+- Esse comando vai trazer tudo o que fizemos de commit e onde vamos escolher o que queremos e o que não queremos;
+- Ele trará da seguinte forma: pick <código> <nome do commit>;
+- Então apertamos i e começamos a editar as linhas dos commits;
+- Os que queremos deletar digitamos squash, ele vai deletar essa mensagem do commit e vai mergear o código com os demais que temos;
+- Os que queremos manter o commit mas queremos renomear, digitamos reword;
+- Então damos um ESC, digitamos :x! e damos um ENTER.(isso fará com que o arquivo seja salvo);
+- Podemos a qualquer momento das mensagens posteriores digitar i e alterar as informações dos commits que queremos e voltar a salvar com :x!;
+- Podemos nessa edição usar # para comentar as mensagens, isso faz com que o título do commit vire um comentário e não suba junto com os demais, mas também não será apagado. O Código daque commit será mergeado com os demais.
+- Depois de tudo isso, basta dar um push.
+
 **Uso:** git rebase <atual> <private> -i
+
+**OBSERVAÇÃO:** Mas para que a situação fique completa, devemos também excluir e renomear branches, o que demanda mais dois comandos: o **squash** para excluir os branches ruins e o **reword** para renomear os branches que queremos reaproveitar
+
+__________________
+
+### Aula 72 - Melhorando as mensagens dos commits
+
+**Ação:**
+- Separar **assunto** do corpo da mensagem;
+- Assunto com no **máximo 50 caracteres**;
+- Assunto com **letra inicial maíuscula**;
+- Corpo com no **máximo 72 caracteres**;
+- Explicar o **por que e como** do commit, e não como o código foi escrito.
+
+**Uso:** 
 
 __________________
 
