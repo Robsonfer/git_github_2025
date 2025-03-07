@@ -427,3 +427,12 @@ __________________
 **Uso:** git archive --format zip --output main_files.zip main
 
 __________________
+
+### Aula 71 - Técnica de private branch
+
+**Ação:** Há uma técnica chamada private branches onde criamos branches que não serão compartilhados no repositório, então podemos colocar qualquer commit. Ao fim da solução do problema podemos fazer um **rebase**.
+
+**Uso:** git rebase <atual> <private> -i
+
+__________________
+
