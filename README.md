@@ -439,7 +439,7 @@ E como devemos proceder para criar esse branch privado?
 - Então mudamos para o branch da função que não é privado: _git checkout func_a_;
 - Neste momento damos o _git rebase funcao_a private_funcao_a -i_;
 - Esse comando vai trazer tudo o que fizemos de commit e onde vamos escolher o que queremos e o que não queremos;
-- Ele trará da seguinte forma: pick <código> <nome do commit>;
+- Ele trará da seguinte forma: pick <código> <descrição do comit>;
 - Então apertamos i e começamos a editar as linhas dos commits;
 - Os que queremos deletar digitamos squash, ele vai deletar essa mensagem do commit e vai mergear o código com os demais que temos;
 - Os que queremos manter o commit mas queremos renomear, digitamos reword;
